@@ -1,0 +1,154 @@
+/*FONT FAMILY FOR HEADING*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+/*FONT FAMILY FOR PARAGRAPH*/
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
+body h1, body h2, body h3, body h4, body h5, body h6 {
+  font-family: "Open Sans", sans-serif; }
+
+body p, body a {
+  font-family: "Oswald", sans-serif; }
+
+body .btn {
+  font-family: "Oswald", sans-serif; }
+
+#menubar-section .d-inline {
+  font-family: "Open Sans", sans-serif; }
+
+#menubar-section .nav-link {
+  font-family: "Open Sans", sans-serif; }
+
+#slider1 .carousel-item {
+  min-height: 400px; }
+
+#slider1 .img-1 {
+  background: url("../img/a.jpg") no-repeat center top;
+  background-size: cover; }
+
+#slider1 .img-2 {
+  background: url("../img/b.jpg") no-repeat center top;
+  background-size: cover; }
+
+#slider1 .img-3 {
+  background: url("../img/c.jpg") no-repeat center top;
+  background-size: cover; }
+
+#under-slider .fa {
+  font-size: 40px; }
+
+#get-start {
+  background: url("../img/ready.jpg") no-repeat center top;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 250px; }
+  #get-start .bg-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    min-height: 250px; }
+
+#video-section {
+  background: url("../img/video.jpg") no-repeat center top;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 250px; }
+  #video-section .bg-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    min-height: 250px; }
+  #video-section .fa {
+    font-size: 50px; }
+
+#photo-gallery .img-fluid {
+  height: 250px;
+  width: 100%; }
+
+#footer-section {
+  background-color: #000000; }
+
+/*PAGE(about.html)*/
+#about-page-top {
+  background: url("../img/wedo.jpg") no-repeat center top;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 250px; }
+  #about-page-top .bg-overlay {
+    background: rgba(50, 146, 156, 0.4);
+    min-height: 250px; }
+
+#about-page-boxinfo .fa {
+  font-size: 40px; }
+
+#about-page-testimonial .slick-prev::before {
+  color: black; }
+
+#about-page-testimonial .slick-next::before {
+  color: black; }
+
+/*PAGE (service.html)*/
+#service-page-top {
+  background: url("../img/service.jpg") no-repeat center top;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 250px; }
+  #service-page-top .bg-overlay {
+    background: rgba(50, 146, 156, 0.4);
+    min-height: 250px; }
+
+/*PAGE (blog.html)*/
+#blog-page-top {
+  background: url("../img/blog.jpg") no-repeat center top;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 250px; }
+  #blog-page-top .bg-overlay {
+    background: rgba(50, 146, 156, 0.4);
+    min-height: 250px; }
+
+#blog-page-blog .img-fluid {
+  height: 250px;
+  width: 100%; }
+
+/*PAGE (contact.html)*/
+#contact-page-top {
+  background: url("../img/contact.jpg") no-repeat center top;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 250px; }
+  #contact-page-top .bg-overlay {
+    background: rgba(50, 146, 156, 0.4);
+    min-height: 250px; }
+
+/*MEDIA QUERY*/
+@media (max-width: 300px) {
+  #menubar-section .align-middle {
+    font-size: 1.25rem; } }
+
+@media (max-width: 238px) {
+  #menubar-section .navbar-toggler-icon {
+    width: 1.25rem;
+    height: 1.25rem; } }
+
+@media (max-width: 400px) {
+  #slider-show .carousel-caption h2 {
+    font-size: 1.25rem; }
+  #slider-show .carousel-caption p {
+    font-size: 1rem; } }
+
+@media (max-width: 768px) {
+  #about-page-we-do .lead {
+    font-size: 1.10rem; }
+  #about-page-we-do h2 {
+    font-size: 1.50rem; } }
+
+@media (max-width: 500px) {
+  #about-page-testimonial h2 {
+    font-size: 1.25rem; }
+  #about-page-testimonial p {
+    font-size: 1rem; } }
+
+@media (max-width: 992px) {
+  #blog-page-blog h4 {
+    font-size: 1.21rem; } }
+
+@media (max-width: 450px) {
+  #contact-page-contact-form h4 {
+    font-size: 1rem; }
+  #contact-page-contact-form .form-control {
+    font-size: 0.75rem; } }

@@ -48,10 +48,10 @@ body .btn {
   background: url("../img/video.jpg") no-repeat center top;
   background-attachment: fixed;
   background-size: cover;
-  min-height: 250px; }
+  min-height: 300px; }
   #video-section .bg-overlay {
     background: rgba(0, 0, 0, 0.7);
-    min-height: 250px; }
+    min-height: 300px; }
   #video-section .fa {
     font-size: 50px; }
 
